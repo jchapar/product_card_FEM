@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Preview Card | FEM</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen bg-cream">
+      <!-- Card Container -->
+      <div class="flex flex-col md:flex-row m-3 rounded-lg bg-white overflow-hidden md:max-w-3xl">
+        <!-- Image Div -->
+        <div class="overflow-hidden md:hidden">
+          <img src="images/image-product-mobile.jpg" alt="" class="mx-auto" />
+        </div>
+        <div class="overflow-hidden hidden md:block">
+          <img src="images/image-product-desktop.jpg" alt="" class="mx-auto" />
+        </div>
+        <!-- Content -->
+        <div class="flex flex-col space-y-6 p-6">
+          <!-- Category -->
+          <p class="text-sm text-darkGrayishBlue uppercase font-opensans font-thin tracking-widest">Perfume</p>
+          <!-- Title -->
+          <h2 class="text-3xl font-medium max-w-xs">Gabrielle Essence Eau De Parfum</h2>
+          <!-- Description -->
+          <p class="text-darkGrayishBlue text-md font-opensans">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL</p>
+          <!-- Pricing Container -->
+          <div class="flex items-center justify-start">
+            <p class="text-darkCyan text-4xl mr-5">$149.99</p>
+            <p class="text-darkGrayishBlue line-through">$169.99</p>
+          </div>
+          <!-- Add to cart -->
+          <div class="text-white bg-darkCyan block w-full py-4 font-opensans rounded-lg text-center cursor-pointer flex justify-center items-center">
+            <img src="images/icon-cart.svg" alt="" class="mr-4" />
+            <p class="">Add to Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
